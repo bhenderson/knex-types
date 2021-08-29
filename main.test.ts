@@ -88,7 +88,7 @@ test("updateTypes", async function () {
     output,
     overrides,
     prefix: 'import { PostgresInterval} from "postgres-interval";',
-    suffix: '// user supplied suffix',
+    suffix: "// user supplied suffix",
     schema: ["public", "log", "!secret"],
     exclude: ["login"],
   });
